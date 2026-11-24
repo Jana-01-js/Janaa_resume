@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#0c0d0e">
+  <meta name="description" content="Janarthanan R is a software developer and AI/ML engineer building thoughtful web applications and intelligent systems.">
+  <meta property="og:title" content="Janarthanan R — Software Developer">
+  <meta property="og:description" content="Software, AI and useful ideas — built with care.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://jana-01-js.github.io/Janaa_resume/">
+  <link rel="canonical" href="https://jana-01-js.github.io/Janaa_resume/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23c7f36b'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='sans-serif' font-size='38' font-weight='700' fill='%230c0d0e'%3EJ%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Janarthanan R — Software Developer &amp; AI/ML Engineer</title>
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#home">Skip to content</a>
+  <div class="page-noise" aria-hidden="true"></div>
+  <div class="scroll-progress" id="progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <div class="shell header-inner">
+      <a class="wordmark" href="#home" aria-label="Janarthanan R home">
+        <span class="wordmark-mark">J<span>.</span></span>
+        <span>JANARTHANAN R</span>
+      </a>
+      <nav class="site-nav" id="nav" aria-label="Main navigation">
+        <ul id="nav-list"></ul>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-button" id="theme-toggle" type="button" aria-label="Switch to light theme" title="Toggle color theme">◐</button>
+        <button class="icon-button menu-toggle" id="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false" aria-controls="nav">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero section shell" id="home">
+      <div class="hero-copy reveal">
+        <p class="eyebrow"><span class="status-dot"></span> OPEN TO OPPORTUNITIES <span class="eyebrow-divider">/</span> COIMBATORE, INDIA</p>
+        <div class="profile-switch" role="group" aria-label="Choose career profile">
+          <button type="button" data-profile="dev" aria-pressed="true">Software</button>
+          <button type="button" data-profile="ai" aria-pressed="false">AI / ML</button>
+        </div>
+        <h1>Building useful<br><span class="title-accent">things with code.</span></h1>
+        <p class="hero-intro" id="intro"></p>
+        <p class="role-line"><span id="headline"></span><span class="cursor" aria-hidden="true">_</span></p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#projects">Explore my work <span aria-hidden="true">↘</span></a>
+          <a class="button button-quiet" id="resume-link" href="resumes/resume-software-developer.pdf" download>Download resume <span aria-hidden="true">↓</span></a>
+        </div>
+        <div class="social-links" id="social-links" aria-label="Social profiles"></div>
+      </div>
+
+      <div class="hero-art reveal" aria-label="Code preview">
+        <div class="code-window">
+          <div class="window-bar">
+            <div class="window-lights" aria-hidden="true"><i></i><i></i><i></i></div>
+            <span id="terminal-label">~/janarthanan/build.ts</span>
+            <span class="window-language">CODE</span>
+          </div>
+          <pre class="code-content"><code id="terminal"></code></pre>
+          <div class="window-footer"><span><i class="status-dot"></i> AVAILABLE FOR NEW IDEAS</span><span>IND / 2026</span></div>
+        </div>
+        <div class="orbit orbit-one" aria-hidden="true"></div>
+        <div class="orbit orbit-two" aria-hidden="true"></div>
+        <div class="float-label label-top" id="chip-one">Python</div>
+        <div class="float-label label-right" id="chip-two">React</div>
+        <div class="float-label label-left" id="chip-three">AI / ML</div>
+        <div class="float-label label-bottom" id="chip-four">Problem solving</div>
+      </div>
+    </section>
+
+    <section class="stats-band" aria-label="At a glance">
+      <div class="shell stats-grid" id="stats"></div>
+    </section>
+
+    <section class="section shell" id="about">
+      <div class="section-heading reveal">
+        <p class="section-index">01 / ABOUT</p>
+        <h2>Curiosity, meet<br><span class="title-accent">craft.</span></h2>
+      </div>
+      <div class="about-content reveal">
+        <p class="section-lead" id="about-lead"></p>
+        <div class="about-copy" id="about-copy"></div>
+        <div class="availability"><span class="status-dot"></span> Currently studying at SNS College of Technology</div>
+      </div>
+    </section>
+
+    <section class="section shell section-bordered" id="skills">
+      <div class="section-heading reveal">
+        <p class="section-index">02 / TOOLKIT</p>
+        <h2>Tools of<br><span class="title-accent">the trade.</span></h2>
+      </div>
+      <div class="skills-content reveal">
+        <p class="section-note">A growing toolkit for building across the stack. Select a skill to find related projects.</p>
+        <div class="skills-grid" id="skills-grid"></div>
+      </div>
+    </section>
+
+    <section class="section shell section-bordered" id="projects">
+      <div class="section-heading reveal">
+        <p class="section-index">03 / SELECTED WORK</p>
+        <h2>Ideas into<br><span class="title-accent">impact.</span></h2>
+      </div>
+      <div class="projects-content">
+        <div class="project-toolbar reveal">
+          <p class="section-note">A selection of projects across software and intelligent systems.</p>
+          <div class="search-wrap">
+            <label class="sr-only" for="project-search">Search projects</label>
+            <input id="project-search" type="search" placeholder="Search projects" autocomplete="off">
+            <button type="button" class="text-button" id="clear-filter" hidden>Clear</button>
+          </div>
+        </div>
+        <div class="project-grid" id="project-grid"></div>
+        <p class="empty-state" id="empty-projects" hidden>No projects match that search. Try another term.</p>
+      </div>
+    </section>
+
+    <section class="section shell section-bordered" id="experience">
+      <div class="section-heading reveal">
+        <p class="section-index">04 / EXPERIENCE</p>
+        <h2>Learning by<br><span class="title-accent">doing.</span></h2>
+      </div>
+      <div class="timeline reveal" id="experience-list"></div>
+    </section>
+
+    <section class="section shell section-bordered" id="education">
+      <div class="section-heading reveal">
+        <p class="section-index">05 / EDUCATION</p>
+        <h2>Built on a<br><span class="title-accent">strong base.</span></h2>
+      </div>
+      <div class="timeline reveal" id="education-list"></div>
+    </section>
+
+    <section class="section shell section-bordered" id="certifications">
+      <div class="section-heading reveal">
+        <p class="section-index">06 / CREDENTIALS</p>
+        <h2>Always in<br><span class="title-accent">progress.</span></h2>
+      </div>
+      <div class="credentials-content reveal">
+        <p class="section-note">Courses, certifications and milestones along the way. Open any credential to view its PDF.</p>
+        <div class="credential-grid" id="certification-list"></div>
+      </div>
+    </section>
+
+    <section class="section shell section-bordered" id="agile">
+      <div class="section-heading reveal">
+        <p class="section-index">07 / HOW I WORK</p>
+        <h2>Better work,<br><span class="title-accent">together.</span></h2>
+      </div>
+      <div class="agile-content reveal">
+        <p class="section-lead">Familiar with the principles that help teams make steady progress and build the right thing.</p>
+        <div class="tag-list" id="agile-list"></div>
+      </div>
+    </section>
+
+    <section class="contact-section" id="contact">
+      <div class="shell contact-inner reveal">
+        <div>
+          <p class="section-index">08 / GET IN TOUCH</p>
+          <h2>Have something<br>good in <span class="title-accent">mind?</span></h2>
+          <p class="contact-copy">I’m always open to a thoughtful conversation, a new opportunity or an interesting problem to solve.</p>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-email" id="contact-email" href="mailto:janapersonal01@gmail.com"></a>
+          <div class="contact-buttons">
+            <a class="button button-primary" id="email-button" href="mailto:janapersonal01@gmail.com">Send me an email <span aria-hidden="true">↗</span></a>
+            <button class="button button-quiet" id="copy-email" type="button">Copy email</button>
+          </div>
+          <p class="copy-status" id="copy-status" role="status" aria-live="polite"></p>
+          <div class="social-links contact-socials" id="contact-social-links" aria-label="Social profiles"></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="shell footer-inner">
+      <a class="wordmark footer-mark" href="#home"><span class="wordmark-mark">J<span>.</span></span><span>JANARTHANAN R</span></a>
+      <p>Designed and built with intention. <span id="year"></span></p>
+      <a class="back-top" href="#home">Back to top ↑</a>
+    </div>
+  </footer>
+</body>
+</html>
